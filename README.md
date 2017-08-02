@@ -1,4 +1,4 @@
-# My Awesome Book
+# ![](https://hiring-assets.careerbuilder.com/branding/cortex-logo--reverse--small.png)
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Introduction text goes here
 
