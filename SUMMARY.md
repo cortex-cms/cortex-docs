@@ -7,7 +7,7 @@
   * [Examples](examples.md)
 * [Basics](basics.md)
   * [Setup](basics/setup.md)
-  * Deployment
+  * [Deployment](basics/deployment.md)
   * Tenancy & User Management
   * [Building Content Types](basics/building-content-types.md)
   * [Designing Indexes](basics/designing-indexes.md)
