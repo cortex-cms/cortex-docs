@@ -14,7 +14,7 @@
   * [Designing Wizards](basics/designing-wizards.md)
   * [Consuming Content](basics/consuming-content.md)
 * Advanced
-  * Developing Plugins
+  * [Developing Plugins](developing-plugins.md)
   * Contributing
   * Testing
 * Troubleshooting
