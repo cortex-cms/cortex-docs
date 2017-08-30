@@ -1,4 +1,11 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* Introduction
+  * Motivation
+  * Core Concepts
+* [Basics](basics.md)
+  * Building Content Types
+  * Designing Indexes
+  * Designing Wizards
 
