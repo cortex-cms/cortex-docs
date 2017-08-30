@@ -5,7 +5,7 @@
   * Motivation
   * Core Concepts
 * [Basics](basics.md)
-  * Building Content Types
+  * [Building Content Types](basics/building-content-types.md)
   * Designing Indexes
   * Designing Wizards
 
