@@ -1,9 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Introduction](introduction.md)
   * [Motivation](motivation.md)
-  * [Core Concepts](core-concepts.md)
+  * Core Concepts
 * [Basics](basics.md)
   * [Building Content Types](basics/building-content-types.md)
   * [Designing Indexes](basics/designing-indexes.md)
