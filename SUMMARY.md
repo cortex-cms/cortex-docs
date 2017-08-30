@@ -12,7 +12,7 @@
   * [Building Content Types](basics/building-content-types.md)
   * [Designing Indexes](basics/designing-indexes.md)
   * [Designing Wizards](basics/designing-wizards.md)
-  * Consuming Content
+  * [Consuming Content](basics/consuming-content.md)
 * Advanced
   * Developing Plugins
   * Contributing
