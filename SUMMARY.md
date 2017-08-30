@@ -6,6 +6,6 @@
   * Core Concepts
 * [Basics](basics.md)
   * [Building Content Types](basics/building-content-types.md)
-  * Designing Indexes
+  * [Designing Indexes](basics/designing-indexes.md)
   * Designing Wizards
 
