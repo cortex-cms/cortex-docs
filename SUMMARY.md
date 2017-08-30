@@ -15,7 +15,7 @@
   * [Consuming Content](basics/consuming-content.md)
 * Advanced
   * [Developing Plugins](developing-plugins.md)
-  * Contributing
+  * [Contributing](contributing.md)
   * Testing
 * Troubleshooting
 * Glossary
