@@ -18,5 +18,5 @@
   * [Contributing](contributing.md)
   * [Testing](testing.md)
 * [Troubleshooting](troubleshooting.md)
-* Glossary
+* [Glossary](glossary.md)
 
