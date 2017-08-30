@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
   * [Motivation](motivation.md)
-  * Core Concepts
+  * [Core Concepts](core-concepts.md)
   * Prior Art
   * Examples
 * [Basics](basics.md)
