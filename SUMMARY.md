@@ -3,7 +3,7 @@
 * [Introduction](README.md)
   * [Motivation](motivation.md)
   * [Core Concepts](core-concepts.md)
-  * Prior Art
+  * [Prior Art](prior-art.md)
   * Examples
 * [Basics](basics.md)
   * Setup
