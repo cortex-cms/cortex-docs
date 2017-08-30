@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
   * [Motivation](motivation.md)
-  * Core Concepts
+  * [Core Concepts](core-concepts.md)
 * [Basics](basics.md)
   * [Building Content Types](basics/building-content-types.md)
   * [Designing Indexes](basics/designing-indexes.md)
