@@ -4,7 +4,7 @@
   * [Motivation](motivation.md)
   * [Core Concepts](core-concepts.md)
   * [Prior Art](prior-art.md)
-  * Examples
+  * [Examples](examples.md)
 * [Basics](basics.md)
   * Setup
   * Deployment
