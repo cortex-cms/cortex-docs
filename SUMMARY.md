@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Introduction
+* [Introduction](introduction.md)
   * [Motivation](motivation.md)
   * [Core Concepts](core-concepts.md)
 * [Basics](basics.md)
