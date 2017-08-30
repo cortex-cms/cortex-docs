@@ -6,7 +6,7 @@
   * [Prior Art](prior-art.md)
   * [Examples](examples.md)
 * [Basics](basics.md)
-  * Setup
+  * [Setup](basics/setup.md)
   * Deployment
   * Tenancy & User Management
   * [Building Content Types](basics/building-content-types.md)
