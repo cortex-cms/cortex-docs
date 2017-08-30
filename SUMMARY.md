@@ -8,7 +8,7 @@
 * [Basics](basics.md)
   * [Setup](basics/setup.md)
   * [Deployment](basics/deployment.md)
-  * Tenancy & User Management
+  * [Tenancy & User Management](basics/tenancy-and-user-management.md)
   * [Building Content Types](basics/building-content-types.md)
   * [Designing Indexes](basics/designing-indexes.md)
   * [Designing Wizards](basics/designing-wizards.md)
