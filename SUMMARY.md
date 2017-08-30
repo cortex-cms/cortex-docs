@@ -16,7 +16,7 @@
 * Advanced
   * [Developing Plugins](developing-plugins.md)
   * [Contributing](contributing.md)
-  * Testing
+  * [Testing](testing.md)
 * Troubleshooting
 * Glossary
 
