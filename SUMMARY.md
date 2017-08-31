@@ -13,9 +13,10 @@
   * [Designing Indexes](basics/designing-indexes.md)
   * [Designing Wizards](basics/designing-wizards.md)
   * [Consuming Content](basics/consuming-content.md)
-* Advanced
+* [Advanced](advanced.md)
   * [Developing Plugins](advanced/developing-plugins.md)
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Glossary](glossary.md)
+
