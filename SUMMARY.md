@@ -1,10 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-  * [Motivation](motivation.md)
-  * [Core Concepts](core-concepts.md)
-  * [Prior Art](prior-art.md)
-  * [Examples](examples.md)
+  * [Motivation](introduction/motivation.md)
+  * [Core Concepts](introduction/core-concepts.md)
+  * [Prior Art](introduction/prior-art.md)
+  * [Examples](introduction/examples.md)
 * [Basics](basics.md)
   * [Setup](basics/setup.md)
   * [Deployment](basics/deployment.md)
@@ -14,9 +14,8 @@
   * [Designing Wizards](basics/designing-wizards.md)
   * [Consuming Content](basics/consuming-content.md)
 * Advanced
-  * [Developing Plugins](developing-plugins.md)
-  * [Contributing](contributing.md)
-  * [Testing](testing.md)
+  * [Developing Plugins](advanced/developing-plugins.md)
+  * [Contributing](advanced/contributing.md)
+  * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Glossary](glossary.md)
-
