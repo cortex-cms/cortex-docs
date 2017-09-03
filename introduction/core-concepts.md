@@ -8,5 +8,5 @@ Once a _content creator_ has created actual content based on a `ContentType`, it
 
 ### Field Types
 
-
+When modeling your 
 
