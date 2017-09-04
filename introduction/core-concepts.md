@@ -8,5 +8,5 @@ Once a _content creator_ has created actual content based on a `ContentType`, it
 
 ### Field Types
 
-When modeling `ContentTypes`, \_superadministrators \_make use of individual `FieldTypes`, which can provide anything from input fields such as Text, Boolean, User, Media to static text, informative widgets, video previews, and much more.
+When modeling `ContentTypes`, _superadministrators_ make use of individual `FieldTypes`, which can provide anything from input fields such as Text, Boolean, User, Media to static text, informative widgets, video previews, and much more.
 
