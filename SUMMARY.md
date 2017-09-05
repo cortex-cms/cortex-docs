@@ -14,10 +14,12 @@
   * [Designing Wizards](basics/designing-wizards.md)
   * [Consuming Content](basics/consuming-content.md)
   * [Scheduling Content](basics/scheduling-content.md)
+  * [Search](basics/search.md)
 * [Advanced](advanced.md)
   * [Developing Plugins](advanced/developing-plugins.md)
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
+  * ElasticSearch Mappings/Queries
 * [Troubleshooting](troubleshooting.md)
 * [Glossary](glossary.md)
 
