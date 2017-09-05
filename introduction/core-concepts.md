@@ -1,6 +1,6 @@
 ### Content Types
 
-In Cortex CMS, a `ContentType` allows a _superadministrator_ to model what kind content gets delivered to the consuming application - your corporate or personal blog, resource center, marketplace, website and so on.
+In Cortex CMS, a `ContentType` allows a _superadministrator_ to model what kind of content gets delivered to the consuming application - your corporate or personal blog, resource center, marketplace, website and so on.
 
 Unlike systems that hardcode your basic content types out of the box - Blogposts, Media, etc. - and require you to create tightly coupled plugins to mix in additional functionality, Cortex CMS allows you to compose your content types from the ground up, specific to each business case. To accomplish this, you combine the necessary `FieldTypes` that make up your content. Every `FieldType`available for use is provided as part of a plugin, allowing you to extend the system without directly modifying the 'core' platform.
 
