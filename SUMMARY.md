@@ -17,9 +17,9 @@
   * [Search](basics/search.md)
 * [Advanced](advanced.md)
   * [Developing Plugins](advanced/developing-plugins.md)
+  * [ElasticSearch Mappings/Queries](advanced/elasticsearch-mappingsqueries.md)
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
-  * ElasticSearch Mappings/Queries
 * [Troubleshooting](troubleshooting.md)
 * [Glossary](glossary.md)
 
