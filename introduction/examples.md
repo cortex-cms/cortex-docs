@@ -1,6 +1,6 @@
 ### Beta \(Dynamic Content Models\)
 
-* Employer Resources - Article and Resource portal bringing relevant content to Employers. Frontend provided by Uberflip, which pulls from a Beta Cortex RSS Feed \(which uses an `RSS` [Decorator](#beta-dynamic-content-models)\) [Live Site](https://www.careerbuilder.com/advice)
+* Employer Resources - Article and Resource portal bringing relevant content to Employers. Frontend provided by [Uberflip](https://www.uberflip.com/), which pulls from a Beta Cortex RSS Feed \(which uses a custom `RSS` [Decorator](/introduction/core-concepts.md)\) [Live Site](https://www.careerbuilder.com/advice)
 
 ### Legacy \(Hardcoded Content Models\)
 
