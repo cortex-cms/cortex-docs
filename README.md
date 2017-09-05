@@ -1,4 +1,4 @@
-# [![](https://hiring-assets.careerbuilder.com/branding/cortex-logo--reverse--small.png)](https://github.com/cbdr/cortex)
+# [![](/assets/branding/cortex-logo--reverse--small.png)](https://github.com/cbdr/cortex)
 
 Cortex CMS is a [multitenant](https://en.wikipedia.org/wiki/Multitenancy) identity, content distribution/management and reporting platform built by the \[Content Enablement\]\[cb-ce-github\] team at [CareerBuilder](https://github.com/careerbuilder). Its purpose is to provide central infrastructure for next-generation applications; exposing a single point of management while enabling quicker build-out of new software.
 
@@ -9,5 +9,4 @@ Cortex follows a decentralized, API-only architecture - it is _not_ built like W
 [![Test Coverage](https://codeclimate.com/repos/53f62c2869568018180036c9/badges/78e3c3c865b118bbd72b/coverage.svg)](https://codeclimate.com/repos/53f62c2869568018180036c9/coverage)  
 [![Documentation Status](https://www.gitbook.com/button/status/book/cortex-cms/cortex-cms)](https://docs.cortexcms.org/)
 
-![](/assets/cortex_screenshot.png)
-
+![](/assets/branding/cortex_screenshot.png)
