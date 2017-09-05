@@ -5,7 +5,7 @@
   * [Core Concepts](introduction/core-concepts.md)
   * [Prior Art](introduction/prior-art.md)
   * [Examples](introduction/examples.md)
-* [Basics](basics.md)
+* [Basics](basics/README.md)
   * [Setup](basics/setup/README.md)
     * [Manual](basics/setup/manual.md)
     * [Docker Compose](basics/setup/docker-compose.md)
