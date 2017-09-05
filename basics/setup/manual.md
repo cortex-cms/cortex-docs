@@ -1,7 +1,5 @@
 # Manual Setup
 
-> Note: Docker Compose instructions coming soon
-
 ### Environment
 
 Copy and rename the example `.env.example` file as `.env` and modify it to match your environment.
