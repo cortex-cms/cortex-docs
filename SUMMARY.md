@@ -17,11 +17,10 @@
   * [Consuming Content](basics/consuming-content.md)
   * [Scheduling Content](basics/scheduling-content.md)
   * [Search](basics/search.md)
-* [Advanced](advanced.md)
+* [Advanced](advanced/README.md)
   * [Developing Plugins](advanced/developing-plugins.md)
   * [Extending Search](advanced/extending-search.md)
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Glossary](glossary.md)
-
