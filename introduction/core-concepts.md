@@ -14,8 +14,11 @@ Once a _content creator_ has created content based on a `ContentType`, a `FieldI
 
 ### Decorators
 
-_Content creators_ expect a creation experience that properly utilizes screen real estate, is informative, and can be reconfigured based on new business needs and challenges. Unlike systems such as Drupal, which simply stack each `FieldType` added to a `ContentType` one after the other in a giant, vertical view, Cortex CMS allows _superadministrators_ to design the create/edit/index experience by way of `Decorators`. These are simple JSON objects that, based on their `Decorator` type, adhere to a documented schema. There are currently two primary `Decorator` types \(though more can be added via plugins\): `Wizard` and `Index`. By setting the type to `Wizard` and adhering to its documented schema, a _superadministrator_ can set up a CRUD interface that that can drop `Fields` into a flexible, responsive grid, configure individual `FieldTypes` for display to the _content creator_, toggle a WYSIWYG editor, apply CSS classes directly to the rendered `Field`, utilize the data from one `Field` in another `Field`, and so on.
+_Content creators_ expect a creation experience that properly utilizes screen real estate, is informative, and can be reconfigured based on new business needs and challenges. Unlike systems such as Drupal, which simply stack each `FieldType` added to a `ContentType` one after the other in a giant, vertical view, Cortex CMS allows _superadministrators_ to design the create/edit/index experience by way of `Decorators`. These are simple JSON objects that, based on their `Decorator` type, adhere to a documented schema.
+
+There are currently two primary `Decorator` types \(though more can be added via plugins\): `Wizard` and `Index`. By setting the type to `Wizard` and adhering to its documented schema, a _superadministrator_ can set up a CRUD interface that that can drop `Fields` into a flexible, responsive grid, configure individual `FieldTypes` for display to the _content creator_, toggle a WYSIWYG editor, apply CSS classes directly to the rendered `Field`, utilize the data from one `Field` in another `Field`, and so on.
 
 ### State, Workflow & Scheduling
 
 All `ContentTypes` automatically
+
