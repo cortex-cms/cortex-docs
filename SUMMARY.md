@@ -13,6 +13,7 @@
   * [Designing Indexes](basics/designing-indexes.md)
   * [Designing Wizards](basics/designing-wizards.md)
   * [Consuming Content](basics/consuming-content.md)
+  * [Scheduling Content](basics/scheduling-content.md)
 * [Advanced](advanced.md)
   * [Developing Plugins](advanced/developing-plugins.md)
   * [Contributing](advanced/contributing.md)
