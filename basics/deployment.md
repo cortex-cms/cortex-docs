@@ -1,5 +1,7 @@
 > Note: Docker Compose instructions coming soon
 
+### Configuration
+
 To use an automated tool to deploy the server, set this environmental variable:
 
 ```shell
