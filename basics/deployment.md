@@ -16,4 +16,5 @@ Additionally, deploying the `development` environment as a non-local server will
 DEPLOYED=true
 ```
 
-This will configure various things, such as [dotenv](https://github.com/bkeepers/dotenv) to behave normally in a deployed scenario.
+This will configure various things such as [dotenv](https://github.com/bkeepers/dotenv) to behave normally in a deployed scenario.
+
