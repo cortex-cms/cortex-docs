@@ -2,6 +2,8 @@
 
 > Note: Docker Compose instructions coming soon
 
+If you want to self-host Cortex CMS, this guide is for you. Currently, only [Manual Setup](/basics/setup/manual.md) is officially supported.
+
 ### Configuration
 
 To use an automated tool to deploy the server, set this environmental variable:
