@@ -17,7 +17,7 @@
   * [Search](basics/search.md)
 * [Advanced](advanced.md)
   * [Developing Plugins](advanced/developing-plugins.md)
-  * Extending Search
+  * [Extending Search](advanced/extending-search.md)
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
