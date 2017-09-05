@@ -1,3 +1,4 @@
+> Note: Docker Compose instructions coming soon
 
 ### Environment
 
@@ -20,7 +21,7 @@ For a rudimentary setup, these variables should be configured:
 $ xcode-select --install
 ```
 
-* Install all Cortex system-wide dependencies (and the `readline` Ruby/`byebug` build dependency) using [Homebrew](http://brew.sh/) from the `Brewfile` via `$ brew install $(cat Brewfile|grep -v "#")`
+* Install all Cortex system-wide dependencies \(and the `readline` Ruby/`byebug` build dependency\) using [Homebrew](http://brew.sh/) from the `Brewfile` via `$ brew install $(cat Brewfile|grep -v "#")`
 * Install Ruby via [rbenv](https://github.com/sstephenson/rbenv) or [rvm](https://rvm.io/).
 * Enable system agents:
 
@@ -48,7 +49,7 @@ $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 ##### Linux
 
-* Install all Cortex system-wide dependencies (and the `readline` Ruby/`byebug` build dependency) using your distribution's package manager (`pacman`, `apt-get`, `yum`, etc). For example, with Ubuntu's `apt-get`:
+* Install all Cortex system-wide dependencies \(and the `readline` Ruby/`byebug` build dependency\) using your distribution's package manager \(`pacman`, `apt-get`, `yum`, etc\). For example, with Ubuntu's `apt-get`:
 
 ```sh
 $ apt-get install libreadline6-dev postgresql postgresql-contrib redis-server openjdk-8-jre imagemagick jpegoptim ghostscript
@@ -81,7 +82,7 @@ $ systemctl start redis
 $ gem install bundler && bundle install
 ```
 
-* Install `node` dependencies (including `bower`) and use `bower-rails`'s rake task to install dependencies:
+* Install `node` dependencies \(including `bower`\) and use `bower-rails`'s rake task to install dependencies:
 
 ```sh
 $ npm install && bundle exec rake bower:install:development
@@ -118,3 +119,4 @@ $ foreman start -f Procfile.dev
 ```
 
 The admin interface should now be accessible locally on port `3000`. To access Cortex as superadmin, login as `admin@cortexcms.org` with password `welcome1`.
+
