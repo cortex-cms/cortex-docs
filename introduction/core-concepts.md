@@ -20,9 +20,13 @@ There are currently two primary `Decorator` types \(though more can be added via
 
 ### State, Workflow & Scheduling
 
-All `ContentTypes` automatically
+TBD
+
+### Headless
+
+TBD
 
 ### Search
 
-
+TBD
 
