@@ -1,3 +1,5 @@
+# Core Concepts
+
 ### Content Types
 
 In Cortex CMS, a `ContentType` allows a _superadministrator_ to model what kind of content gets delivered to the consuming application - your corporate or personal blog, resource center, marketplace, website and so on.
