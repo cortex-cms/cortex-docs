@@ -1,6 +1,7 @@
 ### Beta \(Dynamic Content Models\)
 
 *
+
 ### Legacy \(Hardcoded Content Models\)
 
 * [Advice and Resources](https://github.com/cbdr/consumer-main/) - Simple Jobseeker Resources platform built atop the Consumer Web site utilizing Legacy Cortex Posts and Rails. Content will eventually be dynamically dispersed across site (result pages, description pages, etc) [Live Site](https://www.careerbuilder.com/advice)
