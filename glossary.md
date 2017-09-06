@@ -2,7 +2,7 @@
 
 ###### CMS
 
-At its core, a Content Management System allows for the creation & distribution of content across media devices. With more advanced tools, such as Cortex CMS, a CMS can also provide dynamic content recommendations to end-users, an API for _integration engineers_ to work with when consuming content, reporting, localizations, advanced distribution rules and much more.
+At its core, a Content Management System allows for the creation & distribution of content across media devices. With more advanced tools, such as Cortex CMS, a CMS can also provide dynamic content recommendations to end-users, an API for [integration engineers](/glossary.md#integration-engineer) to work with when consuming content, reporting, localizations, advanced distribution rules and much more.
 
 ###### Content Creator
 
