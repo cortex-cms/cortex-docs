@@ -4,6 +4,10 @@
 
 At its core, a Content Management System allows for the creation & distribution of content across media devices. With more advanced tools, such as Cortex CMS, a CMS can also provide dynamic content recommendations to end-users, an API for [integration engineers](/glossary.md#integration-engineer) to work with when consuming content, reporting, localizations, advanced distribution rules and much more.
 
+###### Custom Content CMS
+
+'Custom Content' implies a more flexible CMS architecture. Rather than hardcoding available 'content types' \(such as a Blogpost, Webpage, Landing Page, Media, etc\) Cortex CMS and others of its ilk allow [content](/glossary.md#content-creator) to easily spin up new content types \(and modify them\) on a whim, as new business cases arise or change. This allows companies to meet the evolving needs of their users, while still providing rich, relevant & tracked experiences.
+
 ###### Content Creator
 
 The primary customer a CMS serves is the content creator, who authors the rich content experiences necessary for end-users to be delighted by the product, whether it be a blog, a website, or something more - a smartphone app, an advertising platform, or even a car's dashboard.
