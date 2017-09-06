@@ -12,6 +12,8 @@ The primary customer a CMS serves is the content creator, who authors the rich c
 
 The glue putting together all the pieces across the CMS - this user creates or manages the various `ContentTypes`, plugins, tenants and users available to every other role.
 
+###### Integration Engineer
+
 ###### Service Layer
 
 ###### ElasticSearch
