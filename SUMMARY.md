@@ -19,6 +19,7 @@
   * [Search](basics/search.md)
 * [Advanced](advanced/README.md)
   * [Developing Plugins](advanced/developing-plugins/README.md)
+    * [Basic Architecture](advanced/developing-plugins/basic-architecture.md)
     * [Service Layer](advanced/developing-plugins/service-layer.md)
     * [Extending Search](advanced/developing-plugins/extending-search.md)
     * [Examples](advanced/developing-plugins/examples.md)
