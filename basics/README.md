@@ -8,6 +8,7 @@ Working with Cortex CMS as a [superadministrator](/glossary.md#superadministrato
 * [Deployment](/basics/deployment.md)
 * [Tenancy & User Management](/basics/tenancy-and-user-management.md)
 * [Building Content Types](/basics/building-content-types.md)
+* [Data Validation](/basics/setup/data-validation.md)
 * [Designing Indexes](/basics/designing-indexes.md)
 * [Designing Wizards](/basics/designing-wizards.md)
 * [Consuming Content](/basics/consuming-content.md)
