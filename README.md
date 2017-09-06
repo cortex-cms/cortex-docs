@@ -8,3 +8,4 @@ Cortex follows a headless, API-only architecture - it is _not_ built like WordPr
 
 ![](/assets/branding/cortex-example-screenshot.png)
 
+Copyright (c) 2017 CareerBuilder, LLC.
