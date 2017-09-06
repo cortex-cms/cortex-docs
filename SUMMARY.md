@@ -20,7 +20,7 @@
 * [Advanced](advanced/README.md)
   * [Developing Plugins](advanced/developing-plugins/README.md)
     * [Service Layer](advanced/developing-plugins/service-layer.md)
-  * [Extending Search](advanced/extending-search.md)
+    * [Extending Search](advanced/developing-plugins/extending-search.md)
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
