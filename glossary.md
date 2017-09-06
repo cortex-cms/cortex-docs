@@ -14,6 +14,8 @@ The glue putting together all the pieces across the CMS - this user creates or m
 
 ###### Integration Engineer
 
+This developer creates and configures the connection between Cortex CMS and the desired frontend application. They can do this via the Cortex CMS API \(recommended\) or RSS feed. A frontend application may be a simple blog, resource center, phone app, embeded device, appliance, and so much more!
+
 ###### ContentType
 
 A collection of `Fields` which represents a category of content that you want on your site
