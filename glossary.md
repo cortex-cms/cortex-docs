@@ -24,7 +24,7 @@ The association between a `ContentType` and a `FieldType`. When saving as a `Fie
 
 ###### FieldType
 
-Describes the characteristics of some piece of data that can be used to compose a ContentType. For example, if a ContentType needs a string of text, that would be a TextFieldType, a pdf would be a DocumentFileFieldType, and so on.
+Describes the characteristics of some piece of data that can be used to compose a `ContentType`. For example, if a `ContentType` needs a string of text, you might utilize a `TextFieldType`, while a PDF might require a `FileFieldType`, and so on.
 
 ###### ContentItem
 
