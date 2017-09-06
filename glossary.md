@@ -16,11 +16,11 @@ The glue putting together all the pieces across the CMS - this user creates or m
 
 ###### ContentType
 
-A collection of Fields which represents a category of content that you want on your site
+A collection of `Fields` which represents a category of content that you want on your site
 
 ###### Field
 
-The association between a ContentType and a FieldType. It tells the ContentType which FieldType to use, the validations you want to run on the content when saving this Field, and any relevant metadata for the field.
+The association between a `ContentType` and a `FieldType`. When saving as a `FieldItem`, it informs the `ContentType` which `FieldType` to use, the validations to run on the content, and provides any relevant metadata to plugins, widgets, decorators, etc.
 
 ###### FieldType
 
@@ -28,7 +28,7 @@ Describes the characteristics of some piece of data that can be used to compose 
 
 ###### ContentItem
 
-An instance of a ContentType, it is a piece of content that gets saved to the database (i.e. a blog post). It consists of multiple FieldItems. ContentItem:FieldItem::ContentType:Field
+An instance of a ContentType, it is a piece of content that gets saved to the database \(i.e. a blog post\). It consists of multiple FieldItems. ContentItem:FieldItem::ContentType:Field
 
 ###### FieldItem
 
@@ -43,3 +43,6 @@ Each FieldItem represents a component of the ContentItem to which it belongs. So
 ###### Docker
 
 ###### Automated Testing
+
+
+
