@@ -17,7 +17,6 @@
   * [Designing Wizards](basics/designing-wizards.md)
   * [Consuming Content](basics/consuming-content.md)
   * [Scheduling Content](basics/scheduling-content.md)
-  * [Data Validation](basics/setup/data-validation.md)
 * [Advanced](advanced/README.md)
   * [Developing Plugins](advanced/developing-plugins/README.md)
     * [Basic Architecture](advanced/developing-plugins/basic-architecture.md)
@@ -30,4 +29,3 @@
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
-
