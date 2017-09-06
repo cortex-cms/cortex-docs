@@ -13,3 +13,6 @@ Working with Cortex CMS as a [superadministrator](/glossary.md#superadministrato
 * [Consuming Content](/basics/consuming-content.md)
 * [Scheduling Content](/basics/scheduling-content.md)
 * [Search](/basics/search.md)
+
+
+
