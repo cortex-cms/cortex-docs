@@ -32,7 +32,7 @@ An instance of a `ContentType`, a `ConteItem` is a grouping of `FieldItems` with
 
 ###### FieldItem
 
-Each FieldItem represents a component of the ContentItem to which it belongs. So if the ContentItem is a blog post, there would be a FieldItem for the title, another for the body, another for an associated image, etc.
+Each `FieldItem` represents a component of the `ContentItem` to which it belongs. So if the `ContentItem` is a blog post, there would be a `FieldItem` for the title, another for the body, another for an associated image, etc. Each of these `FieldItems` has a single corresponding `FieldType` that describes what kind of content it represents, such as a `TextFieldType`, `BooleanFieldType`, etc
 
 ###### Service Layer
 
@@ -43,3 +43,6 @@ Each FieldItem represents a component of the ContentItem to which it belongs. So
 ###### Docker
 
 ###### Automated Testing
+
+
+
