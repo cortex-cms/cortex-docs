@@ -14,6 +14,26 @@ The glue putting together all the pieces across the CMS - this user creates or m
 
 ###### Integration Engineer
 
+###### ContentType
+
+A collection of Fields which represents a category of content that you want on your site
+
+###### Field
+
+The association between a ContentType and a FieldType. It tells the ContentType which FieldType to use, the validations you want to run on the content when saving this Field, and any relevant metadata for the field.
+
+###### FieldType
+
+Describes the characteristics of some piece of data that can be used to compose a ContentType. For example, if a ContentType needs a string of text, that would be a TextFieldType, a pdf would be a DocumentFileFieldType, and so on.
+
+###### ContentItem
+
+An instance of a ContentType, it is a piece of content that gets saved to the database (i.e. a blog post). It consists of multiple FieldItems. ContentItem:FieldItem::ContentType:Field
+
+###### FieldItem
+
+Each FieldItem represents a component of the ContentItem to which it belongs. So if the ContentItem is a blog post, there would be a FieldItem for the title, another for the body, another for an associated image, etc.
+
 ###### Service Layer
 
 ###### ElasticSearch
@@ -23,6 +43,3 @@ The glue putting together all the pieces across the CMS - this user creates or m
 ###### Docker
 
 ###### Automated Testing
-
-
-
