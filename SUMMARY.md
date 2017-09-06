@@ -23,4 +23,6 @@
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
+* [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
+
