@@ -40,6 +40,10 @@ Each `FieldItem` represents a component of the `ContentItem` to which it belongs
 
 ###### Multitenancy
 
+###### Role
+
+###### Permission
+
 ###### Service Layer
 
 ###### ElasticSearch
