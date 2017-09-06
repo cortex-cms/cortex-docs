@@ -28,7 +28,7 @@ Describes the characteristics of some piece of data that can be used to compose 
 
 ###### ContentItem
 
-An instance of a `ContentType`, a `ConteItem` is a grouping of `FieldItems` with _content creator_-provided data that is then persisted to the database and search engine.
+An instance of a `ContentType`, a `ConteItem` is a grouping of `FieldItems` with [content creator](/glossary.md#content-creator)-provided data that is then persisted to the database and search engine.
 
 ###### FieldItem
 
@@ -43,6 +43,3 @@ Each FieldItem represents a component of the ContentItem to which it belongs. So
 ###### Docker
 
 ###### Automated Testing
-
-
-
