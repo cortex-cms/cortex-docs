@@ -2,7 +2,7 @@
 
 ### API Client Libraries
 
-* [cortex-client-ruby](https://github.com/cortex-cms/cortex-client-ruby) \(currently supports only Legacy Cortex CMS\)
+* [cortex-client-ruby](https://github.com/cortex-cms/cortex-client-ruby)
 
 
 
