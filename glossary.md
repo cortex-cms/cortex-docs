@@ -28,7 +28,7 @@ Describes the characteristics of some piece of data that can be used to compose 
 
 ###### ContentItem
 
-An instance of a ContentType, it is a piece of content that gets saved to the database \(i.e. a blog post\). It consists of multiple FieldItems. ContentItem:FieldItem::ContentType:Field
+An instance of a `ContentType`, a `ConteItem` is a grouping of `FieldItems` with _content creator_-provided data that is then persisted to the database and search engine.
 
 ###### FieldItem
 
