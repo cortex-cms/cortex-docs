@@ -18,11 +18,10 @@
   * [Scheduling Content](basics/scheduling-content.md)
   * [Search](basics/search.md)
 * [Advanced](advanced/README.md)
-  * [Developing Plugins](advanced/developing-plugins.md)
+  * [Developing Plugins](advanced/developing-plugins/README.md)
   * [Extending Search](advanced/extending-search.md)
   * [Contributing](advanced/contributing.md)
   * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
-
