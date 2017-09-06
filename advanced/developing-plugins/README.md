@@ -1,3 +1,6 @@
 # Developing Plugins
 
-> TBD - please take a look at the [reference plugin implementation](https://github.com/cortex-cms/cortex-plugins-core) if necessary
+This guide lays out how to build new plugins for Cortex CMS, which will allow you to extend the system with more `FieldTypes`, queries, WYSIWYG widgets, jobs, etc.
+
+
+
