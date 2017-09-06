@@ -14,7 +14,7 @@ The glue putting together all the pieces across the CMS - this user creates or m
 
 ###### Integration Engineer
 
-This developer creates and configures the connection between Cortex CMS and the desired frontend application. They can do this via the Cortex CMS API \(recommended\) or RSS feed by following the consuming [content instructions](/basics/consuming-content.md) & utilizing the Cortex Client. A frontend application may be a simple blog, resource center, phone app, embeded device, appliance, and so much more!
+This developer creates and configures the connection between Cortex CMS and the desired frontend application. They can do this via the Cortex CMS API \(recommended\) or RSS feed by following the consuming [content instructions](/basics/consuming-content.md) & utilizing the [Cortex Client](/basics/consuming-content.md). A frontend application may be a simple blog, resource center, phone app, embeded device, appliance, and so much more!
 
 ###### ContentType
 
