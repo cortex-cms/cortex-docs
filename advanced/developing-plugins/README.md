@@ -7,6 +7,3 @@ This guide lays out how to build new plugins for Cortex CMS, which will allow yo
 * [Extending Search](/advanced/developing-plugins/extending-search.md)
 * [WYSIWYG Widgets](/advanced/developing-plugins/wysiwyg-widgets.md)
 * [Examples](/advanced/developing-plugins/examples.md)
-
-
-

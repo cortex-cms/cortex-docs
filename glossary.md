@@ -6,7 +6,7 @@ At its core, a Content Management System allows for the creation & distribution 
 
 ###### Custom Content CMS
 
-'Custom Content' implies a more flexible CMS architecture. Rather than hardcoding available 'content types' \(such as a Blogpost, Webpage, Landing Page, Media, etc\) Cortex CMS and others of its ilk allow [content](/glossary.md#content-creator) to easily spin up new content types \(and modify them\) on a whim, as new business cases arise or change. This allows companies to meet the evolving needs of their users, while still providing rich, relevant & tracked experiences.
+'Custom Content' implies a more flexible CMS architecture. Rather than hardcoding available 'content types' \(such as a Blogpost, Webpage, Landing Page, Media, etc\) Cortex CMS and others of its ilk allow [superadministrators](/glossary.md#superadministrator) to easily spin up new content types \(and modify them\) on a whim, as new business cases arise or change. This allows companies to meet the evolving needs of their users, while still providing rich, relevant & tracked experiences.
 
 ###### Content Creator
 
@@ -57,6 +57,3 @@ Each `FieldItem` represents a component of the `ContentItem` to which it belongs
 ###### Docker
 
 ###### Automated Testing
-
-
-
