@@ -10,11 +10,12 @@ We love the concepts of various API-centric [Custom Content CMSs](/glossary.md#c
 
 * Content from the top-down. We want to push down content from the lead content/marketing teams down to our field offices.
 * Content from the bottom-up. If a field office creates a great piece of content, it should be shareable across tenants and up the chain to any tenant that would like to consume or localize it. This is similar to how public radio \(and radio in general\) [syndicates](https://en.wikipedia.org/wiki/Broadcast_syndication#Radio_syndication) and shares content.
-* Responsive, bespoke content creation interfaces \([Wizards](/basics/designing-wizards.md)\). Custom Content CMSs typically don't have great [content creator](/glossary.md#content-creator) experiences, as they're sacrificed for a better engineer experience.
-* Search database backend, which provides:
-  * Advanced relevancy
-  * Speed
-* Fields built as React components
+* Responsive, bespoke content creation interfaces \([Wizards](/basics/designing-wizards.md)\). Custom Content CMSs typically don't have great [content creator](/glossary.md#content-creator) experiences, as they're sacrificed good UI/UX for a better engineer/superadministrator experience.
+* A search engine, which provides:
+  * Advanced relevancy. CareerBuilder provides content recommendations based on Job Title/Occupancy codes, which tie in with internal data science APIs that further enrich these recommendations. Integrating all these needs with other CMSs would prove difficult. Cortex CMS allows engineers to to arbitrarily [extend the search engine](/advanced/developing-plugins/extending-search.md) via plugins.
+  * Speed! For advanced queries, which are very common, normal databases just can't stack up to Lucene-based search engines.
+* `FieldTypes` built as React components
+* Lots more!
 
 Thus, Cortex CMS is born!
 
