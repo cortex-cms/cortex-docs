@@ -44,6 +44,8 @@ Each `FieldItem` represents a component of the `ContentItem` to which it belongs
 
 ###### Multitenancy
 
+###### Content Library
+
 ###### Role
 
 ###### Permission
