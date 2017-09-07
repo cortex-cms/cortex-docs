@@ -21,9 +21,8 @@ We love the concepts of various API-centric [Custom Content CMSs](/glossary.md#c
   * Advanced relevancy. CareerBuilder provides content recommendations based on Job Title/Occupancy codes, which tie in with internal data science APIs that further enrich these recommendations. Integrating all these needs with other CMSs would prove difficult. Cortex CMS allows engineers to to arbitrarily [extend the search engine](/advanced/developing-plugins/extending-search.md) via plugins.
   * Speed! For advanced queries, which are very common, normal databases just can't stack up to Lucene-based search engines.
 * `FieldTypes` built as React components
+* Drag-and-drop website/landing page builder and manager
 * Lots more!
 
 _**Thus, Cortex CMS is born!**_
-
-
 
