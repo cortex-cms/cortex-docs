@@ -10,7 +10,7 @@ We love the concepts of various API-centric [Custom Content CMSs](/glossary.md#c
 
 * Content from the top-down. We want to push down content from the lead content/marketing teams down to our field offices.
 * Content from the bottom-up. If a field office creates a great piece of content, it should be shareable across tenants and up the chain to any tenant that would like to consume or localize it. This is similar to how public radio \(and radio in general\) [syndicates](https://en.wikipedia.org/wiki/Broadcast_syndication#Radio_syndication) and shares content.
-* Responsive, bespoke content creation interfaces \([Wizards](/basics/designing-wizards.md)\). Custom Content CMSs typically don't have great [content creator](/glossary.md) experiences, as they're sacrificed for a better engineer experience.
+* Responsive, bespoke content creation interfaces \([Wizards](/basics/designing-wizards.md)\). Custom Content CMSs typically don't have great [content creator](/glossary.md#content-creator) experiences, as they're sacrificed for a better engineer experience.
 * Search database backend, which provides:
   * Advanced relevancy
   * Speed
