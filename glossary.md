@@ -48,6 +48,10 @@ Each `FieldItem` represents a component of the `ContentItem` to which it belongs
 
 ###### Permission
 
+###### WYSIWYG
+
+###### WYSIWYG Widget
+
 ###### Service Layer
 
 ###### ElasticSearch
