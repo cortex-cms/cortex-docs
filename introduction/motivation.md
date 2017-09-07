@@ -23,5 +23,7 @@ We love the concepts of various API-centric [Custom Content CMSs](/glossary.md#c
 * `FieldTypes` built as React components
 * Lots more!
 
-Thus, Cortex CMS is born!
+###### Thus, Cortex CMS is born!
+
+
 
