@@ -14,3 +14,4 @@ To run Ruby and JS specs, utilize:
 ```sh
 $ RAILS_ENV=test bundle exec rake spec
 $ RAILS_ENV=test bundle exec rake spec:javascript
+```
