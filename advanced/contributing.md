@@ -46,13 +46,19 @@ further improvements or alternatives, or the community at large may have input.
 Some things that will increase the chances that your pull request will be accepted:
 
 * Write [good tests][tests]
-* Write [good commit messages][commit]
+* Write [good][good commits], [atomic][atomic commits] & [semantic][semantic commits] commit messages. All commits should follow this general structure:
+  > type(Affected Subject): present-tense summary
+
+  For example:
+  > fix(Contact Us): remove 'Send Us a Note' form
 * Be consistent
 * If applicable, suggest additional options or alternatives, follow-up issues or potential future improvements
 
 [issue]: https://github.com/cbdr/cortex/issues
 [tests]: http://betterspecs.org
-[commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[setup]: https://github.com/cbdr/cortex#setup
+[atomic commits]: https://www.freshconsulting.com/atomic-commits/
+[good commits]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[semantic commits]: https://seesparkbox.com/foundry/semantic_commit_messages
+[setup]: /basics/setup/README.md
 [pr]: https://github.com/cbdr/cortex/compare
-[test-suite]: https://github.com/cbdr/cortex#running-test-suite
+[test-suite]: /advanced/testing.md
