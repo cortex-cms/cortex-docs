@@ -8,4 +8,4 @@ Cortex adheres to a headless, API-only architecture - it avoids a monolithic, al
 
 ![](/assets/branding/cortex-example-screenshot.png)
 
-Copyright \(c\) 2017 CareerBuilder, LLC.
+Copyright \(c\) 2018 CareerBuilder, LLC.
