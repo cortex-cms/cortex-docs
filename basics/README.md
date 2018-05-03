@@ -1,19 +1,17 @@
 # Basics
 
-Working with Cortex CMS as a [superadministrator](/glossary.md#superadministrator) may seem daunting at first blush, but we're here to walk you through every step and demonstrate the simplicity & power of the platform.
+Working with Cortex CMS as a [superadministrator](../glossary.md#superadministrator) may seem daunting at first blush, but we're here to walk you through every step and demonstrate the simplicity & power of the platform.
 
-* [Setup](setup.md)
-  * [Manual](/basics/setup/manual.md)
-  * [Docker Compose](/basics/setup/docker-compose.md) _\(not yet supported\)_
-* [Deployment](/basics/deployment.md)
-* [Tenancy & User Management](/basics/tenancy-and-user-management.md)
-* [Building Content Types](/basics/building-content-types.md)
-* [Data Validation](/basics/setup/data-validation.md)
-* [Designing Indexes](/basics/designing-indexes.md)
-* [Designing Wizards](/basics/designing-wizards.md)
-* [Consuming Content](/basics/consuming-content.md)
-* [Scheduling Content](/basics/scheduling-content.md)
-* [Search](/basics/search.md)
-
-
+* [Setup](https://github.com/cortex-cms/cortex-cms/tree/ec0acc5e822e7cd071403cac968f82e8f6df4a96/basics/setup.md)
+  * [Manual](setup/manual.md)
+  * [Docker Compose](setup/docker-compose.md) _\(not yet supported\)_
+* [Deployment](deployment.md)
+* [Tenancy & User Management](tenancy-and-user-management.md)
+* [Building Content Types](building-content-types.md)
+* [Data Validation](data-validation.md)
+* [Designing Indexes](designing-indexes.md)
+* [Designing Wizards](designing-wizards.md)
+* [Consuming Content](consuming-content.md)
+* [Scheduling Content](scheduling-content.md)
+* [Search](https://github.com/cortex-cms/cortex-cms/tree/ec0acc5e822e7cd071403cac968f82e8f6df4a96/basics/search.md)
 

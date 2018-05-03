@@ -1,6 +1,6 @@
-# Manual Setup
+# Manual
 
-### Environment
+## Environment
 
 Copy and rename the example `.env.example` file as `.env` and modify it to match your environment.
 
@@ -9,15 +9,15 @@ For a rudimentary setup, these variables should be configured:
 * Execute `$ bundle exec rails secret` twice to generate both an `APP_SECRET` and `DEVISE_SECRET`
 * If the superuser isn't used for the app databases, the `DATABASE_USERNAME` and `DATABASE_PASSWORD` should be set accordingly.
 
-### Dependencies
+## Dependencies
 
-#### System
+### System
 
-##### OS X
+#### OS X
 
 * Install the Xcode Command Line tools:
 
-```sh
+```bash
 $ xcode-select --install
 ```
 
@@ -25,7 +25,7 @@ $ xcode-select --install
 * Install Ruby via [rbenv](https://github.com/sstephenson/rbenv) or [rvm](https://rvm.io/).
 * Enable system agents:
 
-```sh
+```bash
 $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 $ ln -sfv /usr/local/opt/elasticsearch/*.plist ~/Library/LaunchAgents
 $ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
@@ -33,7 +33,7 @@ $ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 
 and start them with `brew services`:
 
-```sh
+```bash
 $ brew services start postgresql
 $ brew services start elasticsearch
 $ brew services start redis
@@ -41,17 +41,17 @@ $ brew services start redis
 
 or `launchctl`:
 
-```sh
+```bash
 $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
 $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 ```
 
-##### Linux
+#### Linux
 
 * Install all Cortex system-wide dependencies \(and the `readline` Ruby/`byebug` build dependency\) using your distribution's package manager \(`pacman`, `apt-get`, `yum`, etc\). For example, with Ubuntu's `apt-get`:
 
-```sh
+```bash
 $ apt-get install libreadline6-dev postgresql postgresql-contrib redis-server openjdk-8-jre imagemagick jpegoptim ghostscript
 ```
 
@@ -60,7 +60,7 @@ Ubuntu and Redhat/Fedora do not have an official `elasticsearch` package - you m
 * Install Ruby via [rbenv](https://github.com/sstephenson/rbenv) or [rvm](https://rvm.io/).
 * Enable system agents using your distribution's service manager frontend, which is likely `systemd`'s frontend, `systemctl`:
 
-```sh
+```bash
 $ systemctl enable postgresql
 $ systemctl enable elasticsearch
 $ systemctl enable redis
@@ -68,54 +68,55 @@ $ systemctl enable redis
 
 and start them with `systemctl`:
 
-```sh
+```bash
 $ systemctl start postgresql
 $ systemctl start elasticsearch
 $ systemctl start redis
 ```
 
-#### Application
+### Application
 
 * Install Bundler and its dependencies:
 
-```sh
+```bash
 $ gem install bundler && bundle install
 ```
 
 * Install `node` dependencies \(including `bower`\) and use `bower-rails`'s rake task to install dependencies:
 
-```sh
+```bash
 $ npm install && bundle exec rake bower:install:development
 ```
 
-### Database
+## Database
 
 * Create databases:
 
-```sh
+```bash
 $ bundle exec rake db:create
 ```
 
 * Initialize the schema:
 
-```sh
+```bash
 $ bundle exec rake db:schema:load
 ```
 
 * Seed database with a top-level tenant, the superuser and Custom Content data, then rebuild the ElasticSearch index:
 
-```sh
+```bash
 $ bundle exec rake db:seed
 $ bundle exec rake cortex:core:db:reseed
 $ bundle exec rake cortex:rebuild_indexes
 ```
 
-### Server
+## Server
 
 Start Cortex, Sidekiq and live rebuild of Webpack scripts via Foreman:
 
-```sh
+```bash
 $ foreman start -f Procfile.dev
 ```
 
 The admin interface should now be accessible locally on port `3000`. To access Cortex as superadmin, login as `admin@cortexcms.org` with password `welcome1`.
+

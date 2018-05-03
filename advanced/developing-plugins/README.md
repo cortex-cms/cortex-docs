@@ -2,8 +2,9 @@
 
 This guide lays out how to build new plugins for Cortex CMS, which will allow you to extend the system with more `FieldTypes`, queries, WYSIWYG widgets, jobs, etc.
 
-* [Basic Architecture](/advanced/developing-plugins/basic-architecture.md)
-* [Service Layer](/advanced/developing-plugins/service-layer.md)
-* [Extending Search](/advanced/developing-plugins/extending-search.md)
-* [WYSIWYG Widgets](/advanced/developing-plugins/wysiwyg-widgets.md)
-* [Examples](/advanced/developing-plugins/examples.md)
+* [Basic Architecture](basic-architecture.md)
+* [Service Layer](service-layer.md)
+* [Extending Search](extending-search.md)
+* [WYSIWYG Widgets](wysiwyg-widgets.md)
+* [Examples](examples.md)
+

@@ -1,10 +1,10 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
-  * [Motivation](introduction/motivation.md)
-  * [Core Concepts](introduction/core-concepts.md)
-  * [Prior Art](introduction/prior-art.md)
-  * [Examples](introduction/examples.md)
+* [Motivation](motivation.md)
+* [Core Concepts](core-concepts.md)
+* [Prior Art](prior-art.md)
+* [Examples](examples.md)
 * [Basics](basics/README.md)
   * [Setup](basics/setup/README.md)
     * [Manual](basics/setup/manual.md)
@@ -12,7 +12,7 @@
   * [Deployment](basics/deployment.md)
   * [Tenancy & User Management](basics/tenancy-and-user-management.md)
   * [Building Content Types](basics/building-content-types.md)
-  * [Data Validation](basics/setup/data-validation.md)
+  * [Data Validation](basics/data-validation.md)
   * [Designing Indexes](basics/designing-indexes.md)
   * [Designing Wizards](basics/designing-wizards.md)
   * [Consuming Content](basics/consuming-content.md)
@@ -29,3 +29,4 @@
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
+

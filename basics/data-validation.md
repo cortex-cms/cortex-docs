@@ -4,7 +4,7 @@
 
 Each FieldType defines the validations that can be run on a FieldItem's data. It should have a hash where the keys are the different types of validations that can be run, and the values are method names that will be called to determine if the requested Field validation is legitimate:
 
-```
+```text
 VALIDATION_TYPES = {
   length: :valid_length_validation?,
   presence: :valid_presence_validation?
@@ -15,7 +15,7 @@ In order to define the validations that can be run, we use the [validators defin
 
 The Field validations themselves are run when creating a ContentItem and its associated FieldItems. A ContentItem is only considered valid if all of its FieldItems are valid. To determine validity, the FieldItem instantiates the FieldType, passes in its data, and tells the FieldType to run the validations hash specified by the Field.
 
-```
+```text
 class TextFieldType
   def text_length
     validator = LengthValidator.new(validations[:length].merge(attributes: [:text]))
@@ -23,6 +23,4 @@ class TextFieldType
   end
 end
 ```
-
-
 
