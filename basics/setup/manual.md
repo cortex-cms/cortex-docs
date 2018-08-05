@@ -1,12 +1,20 @@
 # Manual
 
+## `cortex-starter` Prep
+
+As `cortex` itself is only a Rails Engine, it needs to be mounted within a parent Rails applicaton. [cortex-starter](https://github.com/cortex-cms/cortex-starter) serves as a starting point for new users, with `cortex` and `cortex-plugins-core` already mounted and configured with several example `ContentTypes`/`Decorators`. Start by cloning the repository:
+
+```bash
+git clone git@github.com:cortex-cms/cortex-starter.git && cd cortex-starter
+```
+
 ## Environment
 
 Copy and rename the example `.env.example` file as `.env` and modify it to match your environment.
 
 For a rudimentary setup, these variables should be configured:
 
-* Execute `$ bundle exec rails secret` twice to generate both an `APP_SECRET` and `DEVISE_SECRET`
+* Execute `$ bin/rails secret` twice to generate both an `APP_SECRET` and `DEVISE_SECRET`
 * If the superuser isn't used for the app databases, the `DATABASE_USERNAME` and `DATABASE_PASSWORD` should be set accordingly.
 
 ## Dependencies
@@ -58,20 +66,10 @@ $ apt-get install libreadline6-dev postgresql postgresql-contrib redis-server op
 Ubuntu and Redhat/Fedora do not have an official `elasticsearch` package - you must use Elasticsearch's repositories for [APT](https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html) or [RPM](https://www.elastic.co/guide/en/elasticsearch/reference/current/rpm.html) or follow these [manual instructions](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html). The same goes for `phantomjs`. Build from [source](http://phantomjs.org/download.html) or use a [PPA](https://launchpad.net/ubuntu/+ppas?name_filter=phantomjs). Other Linux distributions likely have these as prebuilt packages in their official or user repositories.
 
 * Install Ruby via [rbenv](https://github.com/sstephenson/rbenv) or [rvm](https://rvm.io/).
-* Enable system agents using your distribution's service manager frontend, which is likely `systemd`'s frontend, `systemctl`:
+* Enable & start system agents using your distribution's service manager frontend, which is likely `systemd`'s frontend, `systemctl`:
 
 ```bash
-$ systemctl enable postgresql
-$ systemctl enable elasticsearch
-$ systemctl enable redis
-```
-
-and start them with `systemctl`:
-
-```bash
-$ systemctl start postgresql
-$ systemctl start elasticsearch
-$ systemctl start redis
+$ systemctl enable --now postgresql elasticsearch redis
 ```
 
 ### Application
@@ -82,10 +80,10 @@ $ systemctl start redis
 $ gem install bundler && bundle install
 ```
 
-* Install `node` dependencies \(including `bower`\) and use `bower-rails`'s rake task to install dependencies:
+* Install `node` dependencies using `yarn`:
 
 ```bash
-$ npm install && bundle exec rake bower:install:development
+$ yarn install
 ```
 
 ## Database
