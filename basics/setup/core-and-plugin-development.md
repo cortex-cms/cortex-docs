@@ -47,7 +47,7 @@ Initialize the dummy application:
 
 ```bash
 $ cd cortex
-$ RAILS_ENV=test bin/setup
+$ RAILS_ENV=test spec/dummy/bin/setup
 ```
 
 To run Ruby and JavaScript specs, utilize:
