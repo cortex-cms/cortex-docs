@@ -7,7 +7,7 @@
 * [Examples](examples.md)
 * [Basics](basics/README.md)
   * [Setup](basics/setup/README.md)
-    * [Manual Setup](basics/setup/manual.md)
+    * [Manual Setup](basics/setup/manual-setup.md)
     * [Core & Plugin Development](basics/setup/core-and-plugin-development.md)
   * [Deployment](basics/deployment.md)
   * [Tenancy & User Management](basics/tenancy-and-user-management.md)

@@ -2,7 +2,7 @@
 
 > Note: Docker Compose instructions coming soon
 
-If you want to self-host Cortex CMS, this guide is for you. Currently, only [Manual Setup](setup/manual.md) is officially supported.
+If you want to self-host Cortex CMS, this guide is for you. Currently, only [Manual Setup](setup/manual-setup.md) is officially supported.
 
 ## Configuration
 
