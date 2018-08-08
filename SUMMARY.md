@@ -9,6 +9,7 @@
   * [Setup](basics/setup/README.md)
     * [Manual](basics/setup/manual.md)
     * [Docker Compose](basics/setup/docker-compose.md)
+    * [Core & Plugin Development](basics/setup/core-and-plugin-development.md)
   * [Deployment](basics/deployment.md)
   * [Tenancy & User Management](basics/tenancy-and-user-management.md)
   * [Building Content Types](basics/building-content-types.md)
@@ -29,5 +30,4 @@
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
-* [Core & Plugin Development](core-and-plugin-development.md)
 
