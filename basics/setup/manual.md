@@ -5,7 +5,7 @@
 As `cortex` itself is only a Rails Engine, it needs to be mounted within a parent Rails applicaton. [cortex-starter](https://github.com/cortex-cms/cortex-starter) serves as a starting point for new users, with `cortex` and `cortex-plugins-core` already mounted and configured with several example `ContentTypes`/`Decorators`. Start by cloning the repository:
 
 ```bash
-git clone git@github.com:cortex-cms/cortex-starter.git && cd cortex-starter
+$ git clone git@github.com:cortex-cms/cortex-starter.git && cd cortex-starter
 ```
 
 ## Environment
@@ -86,7 +86,17 @@ $ gem install bundler && bundle install
 $ yarn install
 ```
 
-## Database
+## Data
+
+### Quick Setup
+
+`cortex-starter` ships with an automated setup script. Execute this in lieu of the Manual Setup steps below, if you're comfortable doing so:
+
+```bash
+$ bin/setup
+```
+
+### Manual Setup
 
 * Create databases:
 
@@ -104,7 +114,7 @@ $ bin/rails db:schema:load
 
 ```bash
 $ bin/rails db:seed
-$ bin/rails cortex:core:db:reseed
+$ bin/rails cortex_starter:content_types:seed
 $ bin/rails cortex:rebuild_indexes
 ```
 
@@ -113,6 +123,7 @@ $ bin/rails cortex:rebuild_indexes
 Start Cortex, Sidekiq and live rebuild of Webpack scripts via Foreman:
 
 ```bash
+$ gem install foreman
 $ foreman start -f Procfile.dev
 ```
 
