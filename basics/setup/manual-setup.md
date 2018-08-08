@@ -88,9 +88,9 @@ $ gem install bundler && bundle install
 $ yarn install
 ```
 
-## Data
+## Data Provisioning
 
-### Quick Setup
+### Quick
 
 `cortex-starter` ships with an automated setup script. Execute this in lieu of the Manual Setup steps below, if you're comfortable doing so:
 
@@ -98,7 +98,7 @@ $ yarn install
 $ bin/setup
 ```
 
-### Manual Setup
+### Manual
 
 * Create databases:
 
