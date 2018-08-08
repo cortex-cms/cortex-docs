@@ -4,7 +4,9 @@ Working with Cortex CMS as a [superadministrator](../glossary.md#superadministra
 
 * [Setup](https://github.com/cortex-cms/cortex-cms/tree/ec0acc5e822e7cd071403cac968f82e8f6df4a96/basics/setup.md)
   * [Manual](setup/manual-setup.md)
-  * [Docker Compose]() _\(not yet supported\)_
+  * [Core & Plugin Development](setup/core-and-plugin-development.md)
+  * Docker Compose _\(coming soon\)_
+  * Engine Mounting _\(coming soon\)_
 * [Deployment](deployment.md)
 * [Tenancy & User Management](tenancy-and-user-management.md)
 * [Building Content Types](building-content-types.md)
