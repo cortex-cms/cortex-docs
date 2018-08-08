@@ -79,13 +79,13 @@ $ systemctl enable --now postgresql elasticsearch redis
 * Install Bundler and its dependencies:
 
 ```bash
-$ gem install bundler && bundle install
+$ gem install bundler && bin/bundle install
 ```
 
 * Install `node` dependencies using `yarn`:
 
 ```bash
-$ yarn install
+$ bin/yarn install
 ```
 
 ## Data Provisioning
@@ -122,11 +122,10 @@ $ bin/rails cortex:rebuild_indexes
 
 ## Server
 
-Start Cortex, Sidekiq and live rebuild of Webpack scripts via Foreman:
+Start Cortex, Sidekiq and live Webpack rebuild via Foreman with the `dev-server` script:
 
 ```bash
-$ gem install foreman
-$ foreman start -f Procfile.dev
+$ bin/dev-server
 ```
 
 The admin interface should now be accessible locally on port `3000`. To access Cortex as superadmin, login as `admin@cortexcms.org` with password `welcome1`.
