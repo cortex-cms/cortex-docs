@@ -6,4 +6,6 @@ If you're interested in local development with Cortex \(relevant to [integration
 
 * [Manual](manual.md)
 * [Docker Compose](docker-compose.md) _\(not yet supported\)_
+* Engine Mounting _\(coming soon\)_
+* Setting up Cortex for Development _\(coming soon\)_
 
