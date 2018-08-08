@@ -6,7 +6,7 @@ Cortex adheres to a headless, API-only architecture - it avoids a monolithic, al
 
 To jump straight into using Cortex CMS, please refer to the [manual setup guide](basics/setup/manual-setup.md).
 
-[![CircleCI](https://circleci.com/gh/cortex-cms/cortex.svg?style=svg)](https://circleci.com/gh/cortex-cms/cortex) ![Code Climate](https://codeclimate.com/repos/53f62c2869568018180036c9/badges/78e3c3c865b118bbd72b/gpa.svg) ![Test Coverage](https://codeclimate.com/repos/53f62c2869568018180036c9/badges/78e3c3c865b118bbd72b/coverage.svg) 
+[![CircleCI](https://circleci.com/gh/cortex-cms/cortex.svg?style=svg)](https://circleci.com/gh/cortex-cms/cortex) ![Code Climate](https://codeclimate.com/repos/53f62c2869568018180036c9/badges/78e3c3c865b118bbd72b/gpa.svg) ![Test Coverage](https://codeclimate.com/repos/53f62c2869568018180036c9/badges/78e3c3c865b118bbd72b/coverage.svg)
 
 ![](.gitbook/assets/cortex-example-screenshot.png)
 
