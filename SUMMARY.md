@@ -29,4 +29,5 @@
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
+* [Core & Plugin Development](core-and-plugin-development.md)
 
