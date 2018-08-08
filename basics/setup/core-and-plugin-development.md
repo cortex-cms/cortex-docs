@@ -43,18 +43,18 @@ Lastly, re-install dependencies in the relevant projects.
 
 ## Running Test Suite
 
-Initialize the test database:
+Initialize the dummy application:
 
 ```bash
-$ RAILS_ENV=test bundle exec rake db:schema:load db:seed cortex:core:db:reseed
-$ RAILS_ENV=test bundle exec rake cortex:rebuild_indexes
+$ cd cortex
+$ RAILS_ENV=test bin/setup
 ```
 
-To run Ruby and JS specs, utilize:
+To run Ruby and JavaScript specs, utilize:
 
 ```bash
-$ RAILS_ENV=test bundle exec rake spec
-$ RAILS_ENV=test bundle exec rake spec:javascript
+$ RAILS_ENV=test bin/rails app:spec
+$ RAILS_ENV=test bin/rails app:spec:javascript
 ```
 
 
