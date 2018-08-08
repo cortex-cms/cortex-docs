@@ -1,4 +1,4 @@
-# Manual
+# Manual Setup
 
 ## `cortex-starter` Prep
 
