@@ -10,5 +10,5 @@ To jump straight into using Cortex CMS, please refer to either the [Docker Compo
 
 ![](.gitbook/assets/cortex-example-screenshot.png)
 
-Copyright \(c\) 2018 CareerBuilder, LLC.
+Copyright \(c\) CareerBuilder, LLC.
 
