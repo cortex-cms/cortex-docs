@@ -1,10 +1,3 @@
----
-description: >-
-  Docker Compose automates the configuration, provisioning and execution of
-  Cortex CMS on a single machine. Follow this guide to quickly get started with
-  Cortex CMS.
----
-
 # Docker Compose
 
 ## Environment Preparation
