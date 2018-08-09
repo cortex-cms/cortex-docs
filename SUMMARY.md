@@ -7,6 +7,7 @@
 * [Examples](examples.md)
 * [Basics](basics/README.md)
   * [Setup](basics/setup/README.md)
+    * [Docker Compose](basics/setup/docker-compose.md)
     * [Manual Setup](basics/setup/manual-setup.md)
     * [Core & Plugin Development](basics/setup/core-and-plugin-development.md)
   * [Deployment](basics/deployment.md)

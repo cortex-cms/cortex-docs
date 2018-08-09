@@ -3,9 +3,9 @@
 Working with Cortex CMS as a [superadministrator](../glossary.md#superadministrator) may seem daunting at first blush, but we're here to walk you through every step and demonstrate the simplicity & power of the platform.
 
 * [Setup](https://github.com/cortex-cms/cortex-cms/tree/ec0acc5e822e7cd071403cac968f82e8f6df4a96/basics/setup.md)
+  * [Docker Compose](https://docs.cortexcms.org/basics/setup/docker-compose)
   * [Manual](setup/manual-setup.md)
   * [Core & Plugin Development](setup/core-and-plugin-development.md)
-  * Docker Compose _\(coming soon\)_
   * Engine Mounting _\(coming soon\)_
 * [Deployment](deployment.md)
 * [Tenancy & User Management](tenancy-and-user-management.md)

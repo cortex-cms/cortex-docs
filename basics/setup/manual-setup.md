@@ -1,6 +1,6 @@
 # Manual Setup
 
-## `cortex-starter` Prep
+## `cortex-starter` Preparation
 
 As `cortex` itself is only a Rails Engine, it needs to be mounted within a parent Rails applicaton. [cortex-starter](https://github.com/cortex-cms/cortex-starter) serves as a starting point for new users, with `cortex` and `cortex-plugins-core` already mounted and configured with several example `ContentTypes`/`Decorators`. Start by cloning the repository:
 
@@ -21,7 +21,7 @@ For a rudimentary setup, these variables should be configured:
 
 ### System
 
-#### OS X
+#### macOS
 
 * Install the Xcode Command Line tools:
 
@@ -128,5 +128,5 @@ Start Cortex, Sidekiq and live Webpack rebuild via Foreman with the `dev-server`
 $ bin/dev-server
 ```
 
-The admin interface should now be accessible locally on port `3000`. To access Cortex as superadmin, login as `admin@cortexcms.org` with password `welcome1`.
+The admin interface should now be accessible locally at `http://localhost:3000`. To access Cortex as superadmin, login as `admin@cortexcms.org` with password `welcome1`.
 
