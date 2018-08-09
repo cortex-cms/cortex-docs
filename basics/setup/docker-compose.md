@@ -19,7 +19,7 @@ As `cortex` itself is only a Rails Engine, it needs to be mounted within a paren
 $ git clone git@github.com:cortex-cms/cortex-starter.git && cd cortex-starter
 ```
 
-## Provision & Launch Server
+## Provision & Launch Application
 
 Provision and launch Cortex Starter, PostgreSQL, Redis, ElasticSearch, Sidekiq and live Webpack rebuild via Docker Compose:
 
