@@ -26,7 +26,6 @@
     * [WYSIWYG Widgets](advanced/developing-plugins/wysiwyg-widgets.md)
     * [Examples](advanced/developing-plugins/examples.md)
   * [Contributing](advanced/contributing.md)
-  * [Testing](advanced/testing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)

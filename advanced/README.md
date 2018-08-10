@@ -9,5 +9,4 @@ This guide typically goes beyond the role of a [superadministrator](../glossary.
   * [Extending Search](developing-plugins/extending-search.md)
   * [WYSIWYG Widgets](developing-plugins/wysiwyg-widgets.md)
 * [Contributing](contributing.md)
-* [Testing](testing.md)
 
