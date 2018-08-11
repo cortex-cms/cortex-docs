@@ -29,4 +29,5 @@
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Glossary](glossary.md)
+* [Branding Guide](branding-guide.md)
 
