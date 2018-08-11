@@ -28,6 +28,6 @@
   * [Contributing](advanced/contributing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Roadmap](roadmap.md)
-* [Glossary](glossary.md)
 * [Branding Guide](branding-guide.md)
+* [Glossary](glossary.md)
 
