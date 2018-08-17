@@ -112,7 +112,7 @@ $ bin/rails db:create
 $ bin/rails db:schema:load
 ```
 
-* Seed database with a top-level tenant, the superuser and Custom Content data, then rebuild the ElasticSearch index:
+* Seed database with a top-level tenant, the superuser and Custom Content data, then rebuild the Elasticsearch index:
 
 ```bash
 $ bin/rails db:seed

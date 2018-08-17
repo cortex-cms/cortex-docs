@@ -8,7 +8,7 @@ The management overhead of WordPress is minimal, but lacks distribution flexibil
 
 ## Alright, but isn't Drupal really flexible?
 
-Drupal has more advanced distribution tools - you can build a 'multitenant' site for many locales. Speed, relevancy, extensibility, and advanced distribution are major issues, however. Out of the box, Drupal lacks a search database like ElasticSearch or Solr, which limits both speed and relevancy, especially in more advanced use cases. Drupal's plugin and frontend/templating architecture tends to be very complicated, and PHP is no longer as commonplace among engineers - especially at CareerBuilder. Additionally, Drupal is not headless, which makes consuming content in non-traditional media, such as an ad network, a 3rd party property, a car, etc much more difficult - or impossible!
+Drupal has more advanced distribution tools - you can build a 'multitenant' site for many locales. Speed, relevancy, extensibility, and advanced distribution are major issues, however. Out of the box, Drupal lacks a search database like Elasticsearch or Solr, which limits both speed and relevancy, especially in more advanced use cases. Drupal's plugin and frontend/templating architecture tends to be very complicated, and PHP is no longer as commonplace among engineers - especially at CareerBuilder. Additionally, Drupal is not headless, which makes consuming content in non-traditional media, such as an ad network, a 3rd party property, a car, etc much more difficult - or impossible!
 
 ## Fine, you got me - but didn't you forget all the Custom Content CMSs?
 

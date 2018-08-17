@@ -56,7 +56,7 @@ Each `FieldItem` represents a component of the `ContentItem` to which it belongs
 
 ## Service Layer
 
-## ElasticSearch
+## Elasticsearch
 
 ## Drafts
 

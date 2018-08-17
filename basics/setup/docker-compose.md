@@ -14,7 +14,7 @@ $ git clone git@github.com:cortex-cms/cortex-starter.git && cd cortex-starter
 
 ## Provision & Launch Application
 
-Provision and launch Cortex Starter, PostgreSQL, Redis, ElasticSearch, Sidekiq and live Webpack rebuild via Docker Compose:
+Provision and launch Cortex Starter, PostgreSQL, Redis, Elasticsearch, Sidekiq and live Webpack rebuild via Docker Compose:
 
 ```bash
 $ docker-compose up
