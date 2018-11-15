@@ -3,6 +3,7 @@
 ## Beta \(Dynamic Content Models\)
 
 * Employer Resources - Article and Resource portal bringing relevant content to Employers. Frontend built with [Uberflip](https://www.uberflip.com/), which pulls from a Beta Cortex RSS Feed \(which uses a custom `RSS` [Decorator](core-concepts.md#decorators)\) - [Live Site](https://resources.careerbuilder.com/)
+* Many new clients to be documented soon
 
 ## Legacy \(Hardcoded Content Models - _Deprecated_\)
 

@@ -4,7 +4,7 @@
 
 Install `docker` and `docker-compose` using the [installer](https://docs.docker.com/compose/install/#install-compose) or via your Operating System's package manager \(`pacman`, for example\), then launch the service.
 
-## `cortex-starter` Preparation {#cortex-starter-prep}
+## `cortex-starter` Preparation <a id="cortex-starter-prep"></a>
 
 As `cortex` itself is only a Rails Engine, it needs to be mounted within a parent Rails applicaton. [cortex-starter](https://github.com/cortex-cms/cortex-starter) serves as a starting point for new users, with `cortex` and `cortex-plugins-core` already mounted and configured with several example `ContentTypes`/`Decorators`. Start by cloning the repository:
 
